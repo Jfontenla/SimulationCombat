@@ -1,5 +1,5 @@
 # .vs
-/EShopTDDTrading/.vs/
+**/EShopTDDTrading/.vs/
 
 # bin and obj
 /EShopTDDTrading/EShopTDDTrading/bin/
