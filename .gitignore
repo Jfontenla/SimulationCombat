@@ -1,0 +1,15 @@
+# .vs
+/EShopTDDTrading/.vs/
+
+# bin and obj
+/EShopTDDTrading/EShopTDDTrading/bin/
+/EShopTDDTrading/EShopTDDTrading/obj/
+
+/EShopTDDTrading/EShopTDDTrading.API/bin/
+/EShopTDDTrading/EShopTDDTrading.API/obj/
+
+/EShopTDDTrading/EShopTDDTrading.Infrastructure/bin/
+/EShopTDDTrading/EShopTDDTrading.Infrastructure/obj/
+
+/EShopTDDTrading/EShopTDTrainingDomainUnitTest/bin/
+/EShopTDDTrading/EShopTDTrainingDomainUnitTest/obj/
