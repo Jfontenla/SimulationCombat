@@ -29,14 +29,14 @@ namespace MyStoreSolid_And_xUnit.Entities
             Product = product;
         }
 
-        public OrderLine CreateLine (int units, decimal discount, Product product)
+        public static OrderLine CreateLine (int units, decimal discount, Product product)
         {
             return new OrderLine(units, discount, product);
         }
 
         public void ShowMeOrderLineDetail()
         {
-            Console.WriteLine( $"Unidades {Units} Precio por unidad : {PriceForUnit} con un descuento de {Discount} hace un total de {TotalPrice}" );
+            Console.WriteLine( $"Unidades {Units} Precio por unidad : {PriceForUnit} con un descuento de {Discount} hace un total de {TotalPrice} {Product.ToString()}" );
         }
     }
 }

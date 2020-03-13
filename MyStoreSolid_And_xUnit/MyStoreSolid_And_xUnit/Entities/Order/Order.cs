@@ -21,9 +21,14 @@ namespace MyStoreSolid_And_xUnit.Entities
             OrderLinesList = new List<OrderLine>();
         }
 
-        public AddOrderLine()
+        public void AddOrderLine(int units,decimal discount, Product product)
         {
+            this.OrderLinesList.Add(OrderLine.CreateLine(units,discount, product));
+        }
 
+        public override string ToString()
+        {
+            return $"{OrderCode} {CreationDate} {OrderLinesList.ToString()}";
         }
 
     }
