@@ -23,6 +23,9 @@ namespace MyStoreSolid_And_xUnit.Entities
             if (discount < 0.01m) 
                 throw new ArgumentOutOfRangeException($"El argumento {nameof(discount)} ha de ser mayor que 0");
 
+            if (product == null)
+                throw new ArgumentNullException($"El argumento {nameof(product)} es nulo");
+
             Units = units;
             PriceForUnit = product.SalesPrice;
             Discount = discount;

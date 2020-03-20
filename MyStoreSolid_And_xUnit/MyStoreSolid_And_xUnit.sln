@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyStoreSolid_And_xUnit", "MyStoreSolid_And_xUnit\MyStoreSolid_And_xUnit.csproj", "{EA1E8EDD-DBCF-4307-8394-E0348B908B8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyStoreSolid_And_xUnit", "MyStoreSolid_And_xUnit\MyStoreSolid_And_xUnit.csproj", "{EA1E8EDD-DBCF-4307-8394-E0348B908B8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyStoreSolid_And_xUnit.Test", "MyStoreSolid_And_xUnit.Test\MyStoreSolid_And_xUnit.Test.csproj", "{A2D620D8-684C-43A6-9913-649E7C1A805D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{EA1E8EDD-DBCF-4307-8394-E0348B908B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA1E8EDD-DBCF-4307-8394-E0348B908B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA1E8EDD-DBCF-4307-8394-E0348B908B8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2D620D8-684C-43A6-9913-649E7C1A805D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2D620D8-684C-43A6-9913-649E7C1A805D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2D620D8-684C-43A6-9913-649E7C1A805D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2D620D8-684C-43A6-9913-649E7C1A805D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
