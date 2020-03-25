@@ -9,9 +9,8 @@ namespace MyStoreSolid_And_xUnit.Test
         [Fact]
         public void Constructor_NullOrEmptyOrderCode_ThrowException()
         {
-            //Arrange
-            var orderCode="";
-            //Act
+            //Arrange & Act
+            var orderCode ="";
             //Assert
             Assert.Throws<ArgumentException>(()=> new Order(orderCode));
         }
